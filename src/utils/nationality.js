@@ -1,0 +1,688 @@
+let Nationality = [{
+	"value": 1,
+	"text": "中国"
+}, {
+	"value": 2,
+	"text": "阿富汗"
+}, {
+	"value": 3,
+	"text": "奥兰群岛"
+}, {
+	"value": 4,
+	"text": "阿尔巴尼亚"
+}, {
+	"value": 5,
+	"text": "阿尔及利亚"
+}, {
+	"value": 6,
+	"text": "美属萨摩亚"
+}, {
+	"value": 7,
+	"text": "安道尔"
+}, {
+	"value": 8,
+	"text": "安哥拉"
+}, {
+	"value": 9,
+	"text": "安圭拉"
+}, {
+	"value": 10,
+	"text": "安提瓜和巴布达"
+}, {
+	"value": 11,
+	"text": "阿根廷"
+}, {
+	"value": 12,
+	"text": "亚美尼亚"
+}, {
+	"value": 13,
+	"text": "阿鲁巴"
+}, {
+	"value": 14,
+	"text": "澳大利亚"
+}, {
+	"value": 15,
+	"text": "奥地利"
+}, {
+	"value": 16,
+	"text": "阿塞拜疆"
+}, {
+	"value": 17,
+	"text": "孟加拉"
+}, {
+	"value": 18,
+	"text": "巴林"
+}, {
+	"value": 19,
+	"text": "巴哈马"
+}, {
+	"value": 20,
+	"text": "巴巴多斯"
+}, {
+	"value": 21,
+	"text": "白俄罗斯"
+}, {
+	"value": 22,
+	"text": "比利时"
+}, {
+	"value": 23,
+	"text": "伯利兹"
+}, {
+	"value": 24,
+	"text": "贝宁"
+}, {
+	"value": 25,
+	"text": "百慕大"
+}, {
+	"value": 26,
+	"text": "不丹"
+}, {
+	"value": 27,
+	"text": "玻利维亚"
+}, {
+	"value": 28,
+	"text": "波斯尼亚和黑塞哥维那"
+}, {
+	"value": 29,
+	"text": "博茨瓦纳"
+}, {
+	"value": 30,
+	"text": "布维岛"
+}, {
+	"value": 31,
+	"text": "巴西"
+}, {
+	"value": 32,
+	"text": "文莱"
+}, {
+	"value": 33,
+	"text": "保加利亚"
+}, {
+	"value": 34,
+	"text": "布基纳法索"
+}, {
+	"value": 35,
+	"text": "布隆迪"
+}, {
+	"value": 36,
+	"text": "柬埔寨"
+}, {
+	"value": 37,
+	"text": "喀麦隆"
+}, {
+	"value": 38,
+	"text": "加拿大"
+}, {
+	"value": 39,
+	"text": "佛得角"
+}, {
+	"value": 40,
+	"text": "中非"
+}, {
+	"value": 41,
+	"text": "乍得"
+}, {
+	"value": 42,
+	"text": "智利"
+}, {
+	"value": 43,
+	"text": "圣诞岛"
+}, {
+	"value": 44,
+	"text": "科科斯（基林）群岛"
+}, {
+	"value": 45,
+	"text": "哥伦比亚"
+}, {
+	"value": 46,
+	"text": "科摩罗"
+}, {
+	"value": 47,
+	"text": "刚果（金）"
+}, {
+	"value": 48,
+	"text": "刚果"
+}, {
+	"value": 49,
+	"text": "库克群岛"
+}, {
+	"value": 50,
+	"text": "哥斯达黎加"
+}, {
+	"value": 51,
+	"text": "科特迪瓦"
+}, {
+	"value": 52,
+	"text": "克罗地亚"
+}, {
+	"value": 53,
+	"text": "古巴"
+}, {
+	"value": 54,
+	"text": "捷克"
+}, {
+	"value": 55,
+	"text": "塞浦路斯"
+}, {
+	"value": 56,
+	"text": "丹麦"
+}, {
+	"value": 57,
+	"text": "吉布提"
+}, {
+	"value": 58,
+	"text": "多米尼加"
+}, {
+	"value": 59,
+	"text": "东帝汶"
+}, {
+	"value": 60,
+	"text": "厄瓜多尔"
+}, {
+	"value": 61,
+	"text": "埃及"
+}, {
+	"value": 62,
+	"text": "赤道几内亚"
+}, {
+	"value": 63,
+	"text": "厄立特里亚"
+}, {
+	"value": 64,
+	"text": "爱沙尼亚"
+}, {
+	"value": 65,
+	"text": "埃塞俄比亚"
+}, {
+	"value": 66,
+	"text": "法罗群岛"
+}, {
+	"value": 67,
+	"text": "斐济"
+}, {
+	"value": 68,
+	"text": "Finland"
+}, {
+	"value": 69,
+	"text": "法国"
+}, {
+	"value": 70,
+	"text": "法国大都会"
+}, {
+	"value": 71,
+	"text": "法属圭亚那"
+}, {
+	"value": 72,
+	"text": "法属波利尼西亚"
+}, {
+	"value": 73,
+	"text": "加蓬"
+}, {
+	"value": 74,
+	"text": "冈比亚"
+}, {
+	"value": 75,
+	"text": "格鲁吉亚"
+}, {
+	"value": 76,
+	"text": "德国"
+}, {
+	"value": 77,
+	"text": "加纳"
+}, {
+	"value": 78,
+	"text": "直布罗陀"
+}, {
+	"value": 79,
+	"text": "希腊"
+}, {
+	"value": 80,
+	"text": "格林纳达"
+}, {
+	"value": 81,
+	"text": "瓜德罗普岛"
+}, {
+	"value": 82,
+	"text": "关岛"
+}, {
+	"value": 83,
+	"text": "危地马拉"
+}, {
+	"value": 84,
+	"text": "根西岛"
+}, {
+	"value": 85,
+	"text": "几内亚比绍"
+}, {
+	"value": 86,
+	"text": "几内亚"
+}, {
+	"value": 87,
+	"text": "圭亚那"
+}, {
+	"value": 88,
+	"text": "海地"
+}, {
+	"value": 89,
+	"text": "洪都拉斯"
+}, {
+	"value": 90,
+	"text": "匈牙利"
+}, {
+	"value": 91,
+	"text": "冰岛"
+}, {
+	"value": 92,
+	"text": "印度"
+}, {
+	"value": 93,
+	"text": "印度尼西亚"
+}, {
+	"value": 94,
+	"text": "伊朗"
+}, {
+	"value": 95,
+	"text": "伊拉克"
+}, {
+	"value": 96,
+	"text": "爱尔兰"
+}, {
+	"value": 97,
+	"text": "马恩岛"
+}, {
+	"value": 98,
+	"text": "以色列"
+}, {
+	"value": 99,
+	"text": "意大利"
+}, {
+	"value": 100,
+	"text": "牙买加"
+}, {
+	"value": 101,
+	"text": "日本"
+}, {
+	"value": 102,
+	"text": "泽西岛"
+}, {
+	"value": 103,
+	"text": "约旦"
+}, {
+	"value": 104,
+	"text": "哈萨克斯坦"
+}, {
+	"value": 105,
+	"text": "肯尼亚"
+}, {
+	"value": 106,
+	"text": "基里巴斯"
+}, {
+	"value": 107,
+	"text": "韩国"
+}, {
+	"value": 108,
+	"text": "朝鲜"
+}, {
+	"value": 109,
+	"text": "科威特"
+}, {
+	"value": 110,
+	"text": "吉尔吉斯斯坦"
+}, {
+	"value": 111,
+	"text": "老挝"
+}, {
+	"value": 112,
+	"text": "拉脱维亚"
+}, {
+	"value": 113,
+	"text": "黎巴嫩"
+}, {
+	"value": 114,
+	"text": "莱索托"
+}, {
+	"value": 115,
+	"text": "利比里亚"
+}, {
+	"value": 116,
+	"text": "利比亚"
+}, {
+	"value": 117,
+	"text": "列支敦士登"
+}, {
+	"value": 118,
+	"text": "立陶宛"
+}, {
+	"value": 119,
+	"text": "卢森堡"
+}, {
+	"value": 120,
+	"text": "马其顿"
+}, {
+	"value": 121,
+	"text": "马拉维"
+}, {
+	"value": 122,
+	"text": "马来西亚"
+}, {
+	"value": 123,
+	"text": "马达加斯加"
+}, {
+	"value": 124,
+	"text": "马尔代夫"
+}, {
+	"value": 125,
+	"text": "马里"
+}, {
+	"value": 126,
+	"text": "马耳他"
+}, {
+	"value": 127,
+	"text": "马绍尔群岛"
+}, {
+	"value": 128,
+	"text": "马提尼克岛"
+}, {
+	"value": 129,
+	"text": "毛里塔尼亚"
+}, {
+	"value": 130,
+	"text": "毛里求斯"
+}, {
+	"value": 131,
+	"text": "马约特"
+}, {
+	"value": 132,
+	"text": "墨西哥"
+}, {
+	"value": 133,
+	"text": "密克罗尼西亚"
+}, {
+	"value": 134,
+	"text": "摩尔多瓦"
+}, {
+	"value": 135,
+	"text": "摩纳哥"
+}, {
+	"value": 136,
+	"text": "蒙古"
+}, {
+	"value": 137,
+	"text": "黑山"
+}, {
+	"value": 138,
+	"text": "蒙特塞拉特"
+}, {
+	"value": 139,
+	"text": "摩洛哥"
+}, {
+	"value": 140,
+	"text": "莫桑比克"
+}, {
+	"value": 141,
+	"text": "缅甸"
+}, {
+	"value": 142,
+	"text": "纳米比亚"
+}, {
+	"value": 143,
+	"text": "瑙鲁"
+}, {
+	"value": 144,
+	"text": "尼泊尔"
+}, {
+	"value": 145,
+	"text": "荷兰"
+}, {
+	"value": 146,
+	"text": "新喀里多尼亚"
+}, {
+	"value": 147,
+	"text": "新西兰"
+}, {
+	"value": 148,
+	"text": "尼加拉瓜"
+}, {
+	"value": 149,
+	"text": "尼日尔"
+}, {
+	"value": 150,
+	"text": "尼日利亚"
+}, {
+	"value": 151,
+	"text": "纽埃"
+}, {
+	"value": 152,
+	"text": "诺福克岛"
+}, {
+	"value": 153,
+	"text": "挪威"
+}, {
+	"value": 154,
+	"text": "阿曼"
+}, {
+	"value": 155,
+	"text": "巴基斯坦"
+}, {
+	"value": 156,
+	"text": "帕劳"
+}, {
+	"value": 157,
+	"text": "巴勒斯坦"
+}, {
+	"value": 158,
+	"text": "巴拿马"
+}, {
+	"value": 159,
+	"text": "巴布亚新几内亚"
+}, {
+	"value": 160,
+	"text": "巴拉圭"
+}, {
+	"value": 161,
+	"text": "秘鲁"
+}, {
+	"value": 162,
+	"text": "菲律宾"
+}, {
+	"value": 163,
+	"text": "皮特凯恩群岛"
+}, {
+	"value": 164,
+	"text": "波兰"
+}, {
+	"value": 165,
+	"text": "葡萄牙"
+}, {
+	"value": 166,
+	"text": "波多黎各"
+}, {
+	"value": 167,
+	"text": "卡塔尔"
+}, {
+	"value": 168,
+	"text": "留尼汪岛"
+}, {
+	"value": 169,
+	"text": "罗马尼亚"
+}, {
+	"value": 170,
+	"text": "卢旺达"
+}, {
+	"value": 171,
+	"text": "俄罗斯联邦"
+}, {
+	"value": 172,
+	"text": "圣赫勒拿"
+}, {
+	"value": 173,
+	"text": "圣基茨和尼维斯"
+}, {
+	"value": 174,
+	"text": "圣卢西亚"
+}, {
+	"value": 175,
+	"text": "圣文森特和格林纳丁斯"
+}, {
+	"value": 176,
+	"text": "萨尔瓦多"
+}, {
+	"value": 177,
+	"text": "萨摩亚"
+}, {
+	"value": 178,
+	"text": "圣马力诺"
+}, {
+	"value": 179,
+	"text": "圣多美和普林西比"
+}, {
+	"value": 180,
+	"text": "沙特阿拉伯"
+}, {
+	"value": 181,
+	"text": "塞内加尔"
+}, {
+	"value": 182,
+	"text": "塞舌尔"
+}, {
+	"value": 183,
+	"text": "塞拉利昂"
+}, {
+	"value": 184,
+	"text": "新加坡"
+}, {
+	"value": 185,
+	"text": "塞尔维亚"
+}, {
+	"value": 186,
+	"text": "斯洛伐克"
+}, {
+	"value": 187,
+	"text": "斯洛文尼亚"
+}, {
+	"value": 188,
+	"text": "所罗门群岛"
+}, {
+	"value": 189,
+	"text": "索马里"
+}, {
+	"value": 190,
+	"text": "南非"
+}, {
+	"value": 191,
+	"text": "西班牙"
+}, {
+	"value": 192,
+	"text": "斯里兰卡"
+}, {
+	"value": 193,
+	"text": "苏丹"
+}, {
+	"value": 194,
+	"text": "苏里南"
+}, {
+	"value": 195,
+	"text": "斯威士兰"
+}, {
+	"value": 196,
+	"text": "瑞典"
+}, {
+	"value": 197,
+	"text": "瑞士"
+}, {
+	"value": 198,
+	"text": "叙利亚"
+}, {
+	"value": 199,
+	"text": "塔吉克斯坦"
+}, {
+	"value": 200,
+	"text": "坦桑尼亚"
+}, {
+	"value": 201,
+	"text": "泰国"
+}, {
+	"value": 202,
+	"text": "特立尼达和多巴哥"
+}, {
+	"value": 203,
+	"text": "东帝汶"
+}, {
+	"value": 204,
+	"text": "多哥"
+}, {
+	"value": 205,
+	"text": "托克劳"
+}, {
+	"value": 206,
+	"text": "汤加"
+}, {
+	"value": 207,
+	"text": "突尼斯"
+}, {
+	"value": 208,
+	"text": "土耳其"
+}, {
+	"value": 209,
+	"text": "土库曼斯坦"
+}, {
+	"value": 210,
+	"text": "图瓦卢"
+}, {
+	"value": 211,
+	"text": "乌干达"
+}, {
+	"value": 212,
+	"text": "乌克兰"
+}, {
+	"value": 213,
+	"text": "阿拉伯联合酋长国"
+}, {
+	"value": 214,
+	"text": "英国"
+}, {
+	"value": 215,
+	"text": "美国"
+}, {
+	"value": 216,
+	"text": "乌拉圭"
+}, {
+	"value": 217,
+	"text": "乌兹别克斯坦"
+}, {
+	"value": 218,
+	"text": "瓦努阿图"
+}, {
+	"value": 219,
+	"text": "梵蒂冈"
+}, {
+	"value": 220,
+	"text": "委内瑞拉"
+}, {
+	"value": 221,
+	"text": "越南"
+}, {
+	"value": 222,
+	"text": "瓦利斯群岛和富图纳群岛"
+}, {
+	"value": 223,
+	"text": "西撒哈拉"
+}, {
+	"value": 224,
+	"text": "也门"
+}, {
+	"value": 225,
+	"text": "南斯拉夫"
+}, {
+	"value": 226,
+	"text": "赞比亚"
+}, {
+	"value": 227,
+	"text": "津巴布韦"
+}];
+
+// let getNationlity = (function(){
+//    let
+// })
+
+export {Nationality}
