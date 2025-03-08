@@ -14,7 +14,7 @@
     "@svgr/webpack": "^4.2.0",
     "antd": "^3.23.3",
     "antd-mobile": "^2.2.14",
-    "axios": "^0.18.0",
+    "axios": "^1.8.2",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "babel-plugin-import": "^1.11.0",
